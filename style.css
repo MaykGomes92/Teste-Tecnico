@@ -156,9 +156,15 @@ main .background-image img {
   form button {
     margin-top: 15px;
   }
+  
 }
 
 @media (max-width: 480px) {
+
+  #imagemForm{
+    display: none;
+  }
+
   .containerForm h1 {
     font-size: 1.5rem;
   }
