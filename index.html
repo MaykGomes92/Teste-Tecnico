@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login - VG Tech Solut</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <header class="logoImage">
+        <img src="1732031505282.jpg" id="logo" alt="Logo da Empresa">
+      </header>
+      <section class="containerForm">
+        <h1>Welcome Back</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, tempora consequuntur sint iure, voluptas
+          temporibus.</p>
+        <form id="loginForm" action="#" aria-label="Formulário de Login">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required aria-required="true"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Por favor, insira um email válido como exemplo@dominio.com">
+          <small class="error-message" id="emailError"></small>
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" required aria-required="true" minlength="8"
+            title="A senha deve ter pelo menos 8 caracteres">
+          <small class="error-message" id="senhaError"></small>
+          <div>
+            <div>
+              <input type="checkbox" name="lembrar" id="lembrar">
+              <label for="lembrar">Lembrar-me</label>
+            </div>
+          </div>
+          <button type="submit" id="btnConfirmForm">Entrar</button>
+          <span>Não tem uma conta ? <a href="/registrar-contar">Registre-se</a></span>
+          <p>
+            <a href="/esqueceu-senha">Esqueceu sua senha?</a>
+          </p>
+        </form>
+      </section>
+    </div>
+    <img src="a-mesmerizing-blend-of-dark-blue-and-orange-a-modern-v0-nslg7zvoewic1.webp" alt="Fundo preto com laranja"
+      id="imagemForm">
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
